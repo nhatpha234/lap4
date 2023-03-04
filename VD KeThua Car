@@ -1,0 +1,23 @@
+public class car{
+   pritave int mileage;
+   pritave string color;
+   protected string make;
+   public void accelerate(){
+      sytem.out.println("car is acceletating");
+     }
+ }
+  public class luxurycar extends car 
+  {
+     private string perks;
+  }
+  public class testcar 
+  {
+     public static void main (string [] args)
+     {
+     car c =new car ();
+     luxerycar lcar= new luxurycar();
+     c.accelerate();
+     // this will call the inherited method accclerate
+     lcar.accelerate();
+    }
+  }
