@@ -1,0 +1,44 @@
+public class circle{
+pritave double radius;
+pritave string color;
+public circle (){
+  super();
+}
+public circle ( double radius, string color ){
+   super();
+   this.radius= radius;
+   this.color= color;
+}
+pulic getradius (){
+  return radius;
+  }
+public static setradius ( double radius){
+  this.radius=radius;
+  }
+public getcolor (){
+   return color;
+  }
+public static setcolor(string color){
+   this.color= color;
+  }
+public class cylinder extends circle {
+  pritave double height;
+ public cylinder (){
+ }
+public cylinder (double radius , string color , double height){
+  super ( radius,color,height);
+  this.height=heigt;
+ }
+public double getheight (){
+  return height;
+ }
+public static setheight(double height){
+  this height= heigt;
+ }
+ public double getarea (){
+   return 2*getarea()+2*Math.PI*radius*height ;
+ }
+ public doublic getvolume (){
+    return getarea()* height;}
+ public super tostring +",  height  "+height ;
+ }
