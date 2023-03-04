@@ -1,0 +1,24 @@
+class noithanh extends chuyenxe{
+ pritave double sokm;
+ pritave string sotuyen;
+ //cac ham khoi tao...
+ //cac ham get/set...
+ public string tostring ()
+     return"chuyen xe noi thanh"  +
+               super.tostring()+
+               "\nso tuyen :" + this.sotuyen +
+               "\nsokm:"+ this.sokm
+               "\ndoanh thu :" + this.doanhthu
+  }
+}
+class ngoaithanh extends chuyenxe{
+  pritave string noidem;
+  pritave int songay;
+  public sring tostring ();
+     return "\nchuyen xe ngoai thanh " + 
+              super.tostring() +
+              "\nnoiden:"+this.noiden
+              "\nsongay:"+this.songay
+              "\ndoanhthu: " +this.doanhthu
+  }
+}
